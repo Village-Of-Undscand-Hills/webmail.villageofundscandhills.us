@@ -43,6 +43,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
                       className="w-full px-2 py-1 border border-[#999999]"
+                      aria-label="Username"
                     />
                   </td>
                 </tr>
@@ -56,6 +57,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       className="w-full px-2 py-1 border border-[#999999]"
+                      aria-label="Password"
                     />
                   </td>
                 </tr>
